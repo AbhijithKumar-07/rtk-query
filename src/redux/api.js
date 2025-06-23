@@ -70,3 +70,7 @@ export const productsApi = createApi({
 
 export const { useGetAllProductsQuery, useGetProductByIdQuery, useAddNewProductMutation, useUpdateProductMutation, useDeleteProductMutation } = productsApi; 
 
+
+// To "Read" the data in the baseUrl --> We use builder.query()
+// To "Change" the data in the baseUrl --> We use builder.mutation()
+
